@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Meritvärde</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Räkna ut Meritvärde</h1>
+      </header>
+      <form action="">
+        <input
+          type="text"
+          class="course-input"
+          name=""
+          id=""
+          placeholder="t ex:Matematik 1"
+        />
+        <label for="Betyg" class="drop-label">Välj Betyg:</label>
+        <select name="Betyg" id="Betyg" class="dropInputGrade">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+        </select>
+
+        <label for="credit" class="drop-label">Poäng:</label>
+        <select name="credit" id="credit" class="dropInputCredit">
+          <option type="number" value="50">50</option>
+          <option type="number" value="100" selected>100</option>
+          <option type="number" value="150">150</option>
+        </select>
+        <div class="btn-container">
+          <button class="todo-button">
+            <i class="far fa-plus-square"></i>
+          </button>
+          <button class="todo-button">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+          <button class="todo-button">
+            <i class="calc">Räkna</i>
+          </button>
+        </div>
+      </form>
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+      </div>
+      <div class="avg-container"></div>
+    </div>
+    <div class="footer">
+      <footer>
+        <p><span id="copyright"></span> <a href="baam.dev">baam.dev</a></p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

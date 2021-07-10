@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(120deg, #365088 0%, #5ab9be 100%);
+  color: white;
+  min-height: 100vh;
+}
+.container {
+  min-height: 80vh;
+  margin: 8rem auto;
+  width: 70vw;
+}
+header {
+  font-size: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+form input {
+  /* margin: 0 1rem; */
+  margin: 0 0.3rem;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: white;
+}
+
+.dropInputCredit {
+  margin: 0 0.3rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: white;
+  width: 5rem;
+}
+.dropInputGrade {
+  margin: 0 0.3rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: white;
+  width: 3rem;
+}
+.drop-label {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.btn-container {
+  margin-left: 1.5rem;
+}
+form button {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #5ab9be;
+  color: white;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 3rem 1rem 3rem auto;
+}
+.todo-list {
+  list-style: none;
+  width: 30vw;
+}
+.todo {
+  margin: 0.3rem;
+  background: white;
+  color: black;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo li {
+  flex: 5;
+}
+/*  */
+.avg-container {
+  list-style: none;
+  width: 30vw;
+  margin: 1rem auto;
+}
+.avgField {
+  padding: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  */
+.trash-btn,
+.complete-btn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.complete-btn {
+  background: teal;
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+  text-transform: capitalize;
+}
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.counter {
+  width: 10px;
+}
+.footer {
+  width: 100%;
+  padding: 1.2rem;
+  text-align: center;
+  bottom: 0;
+}
+.footer a {
+  text-decoration: none;
+}
